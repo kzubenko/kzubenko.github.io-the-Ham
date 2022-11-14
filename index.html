@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="https://kit.fontawesome.com/4248f4deaa.js" crossorigin="anonymous"></script>
+    <script src="./javaScript/servicesTabs.js" defer></script>
+    <script src="./javaScript/workFilter.js" defer></script>
+    <script src="./javaScript/clientFeedback.js" defer></script>
+    <title>Step project theHam</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-banner">
+                <div class="container">
+                    <div class="header-container">
+                        <a href="#"><span class="header-logo">the<span class="header-logo-text">Ham</span></span></a>
+                        <nav class="nav-container">
+                            <ul class="nav-list">
+                                <li class="nav-item">
+                                    <a href="#">home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">about</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">service</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">work</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#">testimonial</a>
+                                </li>
+                                        <button id="search" type="submit" class="btn-search">
+                                            <span class="fas fa-search"></span>
+                                        </button>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+            <div class="header-container-info">
+                <h3 class="header-name">the ham is <span class="header-name-colored">wordpress theme</span></h3>
+                <h1 class="header-slogan">we are creative</h1>
+                <span class="header-subtitle">just buy and enjoy these awesome features</span>
+                <div class="header-btn">
+                    <button class="btn">Explore now</button>
+                    <button class="btn">Purchase now</button>
+                </div>
+            </div>
+        </header>
+        <main class="main-content">
+            <section>
+                <ul class="advantages-list">
+                    <li class="advantages-item">
+                        <img src="./img/section_options/options_different_theme.png" alt="different_theme" width="61" height="100" class="advantages-img"> different theme option
+                    </li>
+                    <li class="advantages-item">
+                        <img src="./img/section_options/options_fully_customizable.png" alt="fully_customizable" width="116" height="100" class="advantages-img"> fully customizable
+                    </li>
+                    <li class="advantages-item">
+                        <img src="./img/section_options/options_unlimited_support.png" alt="unlimited_support" width="62" height="100" class="advantages-img"> unlimited support
+                    </li>
+                    <li class="advantages-item">
+                        <img src="./img/section_options/options_all_device.png" alt="all_device" width="122" height="100" class="advantages-img"> responcive all device
+                    </li>
+                </ul>
+            </section>
+
+            <section class="services container">
+                <h1 class="service-title">Our services</h1>
+                <div class="section-content">
+                    <ul class="services-list-tabs">
+                        <li class="services-tabs-item active-tab" data-type="web">Web design</li>
+                        <li class="services-tabs-item" data-type="graphic">Graphic design</li>
+                        <li class="services-tabs-item" data-type="support">Online support</li>
+                        <li class="services-tabs-item" data-type="app">App design</li>
+                        <li class="services-tabs-item" data-type="marketing">Online marketing</li>
+                        <li class="services-tabs-item" data-type="seo">Seo service</li>
+                    </ul>
+                    <ul class="tabs-content">
+                        <li class="tabs-content-item active-text" data-li="web">
+                            <img src="./img/section_services/our_services_1.png" alt="our_services" class="tabs-content-photo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </li>
+                        <li class="tabs-content-item" data-li="graphic">
+                            <img src="./img/section_services/our_services_2.jpg" alt="our_services" class="tabs-content-photo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ad adipisci assumenda dolores eius fuga itaque labore necessitatibus, nobis non numquam odio pariatur placeat repudiandae tempora ut veritatis vero? Ad.
+                        </li>
+                        <li class="tabs-content-item" data-li="support">
+                            <img src="./img/section_services/our_services_3.jpg" alt="our_services" class="tabs-content-photo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem commodi dolores esse impedit labore magnam maiores molestias, mollitia officiis optio quaerat quas quo quos repellat repudiandae sunt voluptatum! Eius, voluptatem.
+                        </li>
+                        <li class="tabs-content-item" data-li="app">
+                            <img src="./img/section_services/our_services_4.jpg" alt="our_services" class="tabs-content-photo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A alias error fugit minus numquam perferendis, possimus quis sint? Beatae deleniti fugit minima modi neque, placeat praesentium. Blanditiis consequuntur eos laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci animi asperiores aut beatae commodi dignissimos eum exercitationem fugit, impedit maxime minus molestias, officia praesentium quaerat quidem quo sint, voluptas voluptatibus?
+                        </li>
+                        <li class="tabs-content-item" data-li="marketing">
+                            <img src="./img/section_services/our_services_5.jpg" alt="our_services" class="tabs-content-photo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis ea error exercitationem nobis officiis placeat reprehenderit similique tempore? Ad earum eveniet ex inventore modi natus quidem sint vero. Assumenda, ipsam?
+                        </li>
+                        <li class="tabs-content-item" data-li="seo">
+                            <img src="./img/section_services/our_services_6.jpg" alt="our_services" class="tabs-content-photo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet at beatae culpa debitis dolor enim eum exercitationem fugiat impedit in incidunt iusto necessitatibus nobis pariatur placeat, praesentium quasi quod temporibus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam at commodi corporis doloremque et explicabo in quae ullam. Animi aperiam eum fuga mollitia natus similique voluptatem. Aspernatur dolores obcaecati qui?
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="purchase">
+                <div class="overlay-section">
+                    <div class="container">
+                        <h2 class="buy-text">everything is ready. just buy and instal now</h2>
+                        <span class="buy-subtitle">Smooth reliable, responsive ready, perfect pornfolio, unique blog layot and many many options for you</span>
+                        <div class="buy-btn">
+                            <button class="btn">purchase now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="work">
+                <div class="container">
+                    <h1 class="service-title">Our amazing work</h1>
+                    <div class="section-content">
+                        <ul class="work-list">
+                            <li class="work-item active-tab-work" data-tab="all">all</li>
+                            <li class="work-item" data-tab="graphic">graphic design</li>
+                            <li class="work-item" data-tab="web">web design</li>
+                            <li class="work-item" data-tab="landing">landing pages</li>
+                            <li class="work-item" data-tab="wordpress">wordpress</li>
+                        </ul>
+
+                        <div class="work-content-list">
+                            <div class="work-card" data-info="landing, all">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/landing_pages/landing-page1.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Landing pages</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card" data-info="web">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/web_design/web-design1.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Web design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card" data-info="graphic">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/graphic_design/graphic-design1.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">graphic design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card" data-info="wordpress">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/wordpress/wordpress1.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Wordpress</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card" data-info="landing">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/landing_pages/landing-page2.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Landing page</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card" data-info="web">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/web_design/web-design2.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Web design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card" data-info="graphic">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/graphic_design/graphic-design2.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Graphic design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card" data-info="wordpress">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/wordpress/wordpress2.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Wordpress</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card" data-info="landing">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/landing_pages/landing-page3.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Landing page</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card" data-info="web">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/web_design/web-design3.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Web design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card" data-info="graphic">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/graphic_design/graphic-design3.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Graphic design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card" data-info="wordpress">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/wordpress/wordpress3.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">#</span></p>
+                                </div>
+                            </div>
+
+                            <div class="work-card hidden" data-info="landing">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/landing_pages/landing-page4.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Landing pages</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="web">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/web_design/web-design4.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Web design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="graphic">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/graphic_design/graphic-design4.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">graphic design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="wordpress">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/wordpress/wordpress4.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Wordpress</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="landing">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/landing_pages/landing-page5.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Landing page</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="web">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/web_design/web-design5.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Web design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="graphic">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/graphic_design/graphic-design5.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Graphic design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="wordpress">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/wordpress/wordpress5.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Wordpress</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="landing">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/landing_pages/landing-page6.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Landing page</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="web">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/web_design/web-design6.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Web design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="graphic">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/graphic_design/graphic-design6.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Graphic design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="wordpress">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/wordpress/wordpress6.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Wordpress</span></p>
+                                </div>
+                            </div>
+
+
+                            <div class="work-card hidden" data-info="landing">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/landing_pages/landing-page7.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Landing pages</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="web">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/web_design/web-design7.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Web design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="graphic">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/graphic_design/graphic-design7.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">graphic design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="wordpress">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/wordpress/wordpress7.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Wordpress</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="landing">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/landing_pages/landing-page10.png" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Landing page</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="web">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/web_design/web-design10.png" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Web design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="graphic">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/graphic_design/graphic-design8.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Graphic design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="wordpress">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/wordpress/wordpress8.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Wordpress</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="landing">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/landing_pages/landing-page11.png" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Landing page</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="graphic">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/graphic_design/graphic-design9.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Graphic design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="graphic">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/graphic_design/graphic-design10.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Graphic design</span></p>
+                                </div>
+                            </div>
+                            <div class="work-card hidden" data-info="wordpress">
+                                <div class="work-card-front">
+                                    <img src="img/section_work/wordpress/wordpress9.jpg" alt="amazing work" >
+                                </div>
+                                <div class="work-card-back">
+                                    <a href="#">
+                                        <span class="fas fa-link card-back-more"></span>
+                                    </a>
+                                    <a href="#">
+                                        <span class="fas fa-search card-back-search"></span>
+                                    </a>
+                                    <p class="card-back-title">creative design<span class="card-back-subtitle">Wordpress</span></p>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <ul class="preload-list">
+                            <li class="preload-item services-pictures"></li>
+                            <li class="preload-item services-pictures"></li>
+                            <li class="preload-item services-pictures"></li>
+                            <li class="preload-item services-pictures"></li>
+                            <li class="preload-item services-pictures"></li>
+                            <li class="preload-item services-pictures"></li>
+                            <li class="preload-item services-pictures"></li>
+                            <li class="preload-item services-pictures"></li>
+                        </ul>
+                        <div class="load-btn services-pictures-btn">
+                            <button class="btn show-more">
+                                <img src="./img/load_more.png" alt="load_more" class="img-load"> load more
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="breaking-news">
+                <div class="container">
+                    <h1 class="service-title">Breaking news</h1>
+                    <div class="section-content">
+                        <div class="news-list">
+                            <div class="news-item">
+                                <a href="#" class="news-link">
+                                    <img src="./img/section_news/news_1.png" alt="breaking news" class="news-img" >
+                                    <div class="news-subtitle">
+                                        <span class="news-subtitle-day">12</span>
+                                        <span class="news-subtitle-month">Feb</span>
+                                    </div>
+                                    <div class="news-title-content">
+                                        <p class="news-title">amazing blog post</p>
+                                        <p class="news-comments-item">
+                                            <span class="news-admin">By admin</span>
+                                            <span class="news-comments">2 comments</span>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="news-item">
+                                <a href="#" class="news-link">
+                                    <img src="./img/section_news/news_2.png" alt="breaking news" class="news-img">
+                                    <div class="news-subtitle">
+                                        <span class="news-subtitle-day">12</span>
+                                        <span class="news-subtitle-month">Feb</span>
+                                    </div>
+                                    <div class="news-title-content">
+                                        <p class="news-title">amazing blog post</p>
+                                        <p class="news-comments-item">
+                                            <span class="news-admin">By admin</span>
+                                            <span class="news-comments">2 comments</span>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="news-item">
+                                <a href="#" class="news-link">
+                                    <img src="./img/section_news/news_3.png" alt="breaking news" class="news-img">
+                                    <div class="news-subtitle">
+                                        <span class="news-subtitle-day">12</span>
+                                        <span class="news-subtitle-month">Feb</span>
+                                    </div>
+                                    <div class="news-title-content">
+                                        <p class="news-title">amazing blog post</p>
+                                        <p class="news-comments-item">
+                                            <span class="news-admin">By admin</span>
+                                            <span class="news-comments">2 comments</span>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="news-item">
+                                <a href="#" class="news-link">
+                                    <img src="./img/section_news/news_4.png" alt="breaking news" class="news-img">
+                                    <div class="news-subtitle">
+                                        <span class="news-subtitle-day">12</span>
+                                        <span class="news-subtitle-month">Feb</span>
+                                    </div>
+                                    <div class="news-title-content">
+                                        <p class="news-title">amazing blog post</p>
+                                        <p class="news-comments-item">
+                                            <span class="news-admin">By admin</span>
+                                            <span class="news-comments">2 comments</span>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="news-item">
+                                <a href="#" class="news-link">
+                                    <img src="./img/section_news/news_5.png" alt="breaking news" class="news-img">
+                                    <div class="news-subtitle">
+                                        <span class="news-subtitle-day">12</span>
+                                        <span class="news-subtitle-month">Feb</span>
+                                    </div>
+                                    <div class="news-title-content">
+                                        <p class="news-title">amazing blog post</p>
+                                        <p class="news-comments-item">
+                                            <span class="news-admin">By admin</span>
+                                            <span class="news-comments">2 comments</span>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="news-item">
+                                <a href="#" class="news-link">
+                                    <img src="./img/section_news/news_6.png" alt="breaking news" class="news-img">
+                                    <div class="news-subtitle">
+                                        <span class="news-subtitle-day">12</span>
+                                        <span class="news-subtitle-month">Feb</span>
+                                    </div>
+                                    <div class="news-title-content">
+                                        <p class="news-title">amazing blog post</p>
+                                        <p class="news-comments-item">
+                                            <span class="news-admin">By admin</span>
+                                            <span class="news-comments">2 comments</span>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="news-item">
+                                <a href="#" class="news-link">
+                                    <img src="./img/section_news/news_7.png" alt="breaking news" class="news-img">
+                                    <div class="news-subtitle">
+                                        <span class="news-subtitle-day">12</span>
+                                        <span class="news-subtitle-month">Feb</span>
+                                    </div>
+                                    <div class="news-title-content">
+                                        <p class="news-title">amazing blog post</p>
+                                        <p class="news-comments-item">
+                                            <span class="news-admin">By admin</span>
+                                            <span class="news-comments">2 comments</span>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="news-item">
+                                <a href="#" class="news-link">
+                                    <img src="./img/section_news/news_8.png" alt="breaking news" class="news-img">
+                                    <div class="news-subtitle">
+                                        <span class="news-subtitle-day">12</span>
+                                        <span class="news-subtitle-month">Feb</span>
+                                    </div>
+                                    <div class="news-title-content">
+                                        <p class="news-title">amazing blog post</p>
+                                        <p class="news-comments-item">
+                                            <span class="news-admin">By admin</span>
+                                            <span class="news-comments">2 comments</span>
+                                        </p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="client-feedback">
+                <div class="overlay-section-client">
+                    <div class="container">
+                        <h1 class=" white-text">What People Say About theHam</h1>
+                        <ul class="client-feedback-list">
+                            <li class="client-feedback-item active-client">
+                                <img src="./img/section_clients_feedback/backticks.png" alt="backticks" width="47" height="33">
+                                <span class="client-feedback-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque culpa debitis dolorem excepturi explicabo id illum iste laudantium magnam, modi necessitatibus quas quasi quia quis quos sint velit veniam veritatis?</span>
+                                <p class="client-feedback-member">Julia Roberts<span class="client-feedback-profession">UI Designer</span></p>
+                                <img src="./img/section_clients_feedback/julia.jpeg" class="client-feedback-member-photo" alt="roberts" width="143" height="143">
+                            </li>
+                            <li class="client-feedback-item">
+                                <img src="./img/section_clients_feedback/backticks.png" alt="backticks" width="47" height="33">
+                                <span class="client-feedback-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus alias blanditiis consectetur, corporis debitis error, incidunt ipsum magni molestiae officia quae quibusdam quisquam reprehenderit saepe, tempore ullam vel voluptatibus.</span>
+                                <p class="client-feedback-member">george clooney<span class="client-feedback-profession">Java Developer</span></p>
+                                <img src="./img/section_clients_feedback/clooney.jpeg" class="client-feedback-member-photo" alt="clooney" width="143" height="143">
+                            </li>
+                            <li class="client-feedback-item">
+                                <img src="./img/section_clients_feedback/backticks.png" alt="backticks" width="47" height="33">
+                                <span class="client-feedback-text">Integer dignissim, augue tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis. Tempus ultricies luctus, quam dui laoreet sem, non dictum odio nisi quis massa. Morbi pulvinar odio eget aliquam facilisis.</span>
+                                <p class="client-feedback-member">brad pitt<span class="client-feedback-profession">UX Designer</span></p>
+                                <img src="./img/section_clients_feedback/pitt.jpeg" class="client-feedback-member-photo" alt="pitt" width="143" height="143">
+                            </li>
+                            <li class="client-feedback-item">
+                                <img src="./img/section_clients_feedback/backticks.png" alt="backticks" width="47" height="33">
+                                <span class="client-feedback-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ad aperiam, at distinctio dolorum est fuga hic laboriosam, provident quae qui quibusdam quod, rerum sapiente soluta tempora veritatis voluptatibus voluptatum. lorem</span>
+                                <p class="client-feedback-member">emma watson<span class="client-feedback-profession">QA engineer</span></p>
+                                <img src="./img/section_clients_feedback/watson.jpeg" class="client-feedback-member-photo" alt="watson" width="143" height="143">
+                            </li>
+                        </ul>
+                        <div class="carousel">
+                            <div class="clients-avatars-list">
+                                <button class="previous">&lt;</button>
+                                <ul class="clients-list">
+                                    <li class="clients-avatars-item">
+                                        <img src="./img/section_clients_feedback/julia.jpeg" alt="roberts" class="clients-avatar active-avatar">
+                                    </li>
+                                    <li class="clients-avatars-item">
+                                        <img src="./img/section_clients_feedback/clooney.jpeg" alt="clooney" class="clients-avatar">
+                                    </li>
+                                    <li class="clients-avatars-item">
+                                        <img src="./img/section_clients_feedback/pitt.jpeg" alt="pitt" class="clients-avatar">
+                                    </li>
+                                    <li class="clients-avatars-item">
+                                        <img src="./img/section_clients_feedback/watson.jpeg" alt="watson" class="clients-avatar">
+                                    </li>
+                                </ul>
+                                <button class="next">&gt;</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer-content">
+            <div class="container">
+                <p class="footer-title"> &copy copyright 2015
+                    <span class="footer-title-logo">theHam</span> all rights reserved
+                </p>
+            </div>
+        </footer>
+    </div>
+
+</body>
+
+</html>
